@@ -1,0 +1,88 @@
+
+#content1 {
+    width:80%;
+}
+
+#navigation,
+#content1 {
+    float:left;
+    margin:10px;
+}
+
+.collapsible,
+.page_collapsible {
+    margin-left: 0px;
+	margin-top:0px;
+	margin-bottom:5px;
+    padding:10px;
+    height:40px;
+	width:80%;
+    border-top:#fff 1px solid;
+    background: #f3f3f4;
+
+    font-family:"Myriad Pro";
+    color: #26b8ef;
+	font-weight:bold;
+    font-size:10;
+}
+
+.collapse-open {
+    background:#f3f3f4;
+    font-family:"Myriad Pro";
+    color: #26b8ef;
+	font-weight:bold;
+    font-size:10;
+}
+
+.collapse-open span {
+    display:block;
+    float:left;
+    padding:0px;
+}
+
+.collapse-open span {
+    background:url(../images/symbol-minus.png) center center no-repeat;
+	
+}
+
+.collapse-close span {
+    display:block;
+    float:left;
+    background:url(../images/icon-plus.png) center center no-repeat;
+    padding:0px;
+}
+
+div.container1 {
+    padding:0;
+    margin:0;
+}
+
+div.content1 {
+    background:#FFF;
+    margin: 0;
+	width:80%;
+    padding:2px;
+    font-size:10;
+    font-family:"Myriad Pro";
+	color:#a2a2a2;
+	text-indent:40px;
+}
+
+div.content1 ul, div.content1 p {
+    margin:0;
+    padding:0px;
+	width:80%;
+}
+
+div.content1 ul li {
+    list-style-position:inside;
+    line-height:25px;
+}
+
+div.content ul li a {
+    color:#555555;
+}
+
+code {
+    overflow:auto;
+}

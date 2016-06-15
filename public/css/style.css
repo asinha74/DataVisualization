@@ -1,0 +1,230 @@
+/* Custom page styles
+-------------------------------------------------- */
+
+.container {
+  width: 100%;
+  max-width: 880px;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+h2
+{
+	position: relative;
+	width: 90%;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 20px 6px 35px;
+	margin: 10px 0px 0px -35px;
+	color: #fff;
+	/* fallback */
+  background-color: #1a82f7;
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#15A3EB), to(#0F80BC));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #15A3EB,#0F80BC);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #15A3EB, #0F80BC);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #15A3EB, #0F80BC);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #15A3EB, #0F80BC);
+
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+h2:before, h2:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+h2:before
+{
+	width: 100%;
+	left: -30px;
+	top: 12px;
+	border-width: 20px 10px;
+	border-style: solid;
+	border-color: #fff #fff #fff transparent;
+}
+h2.flag:before
+{
+	width: 0px;
+	left: auto;
+	right: -2px;
+	top: 0px;
+	border-color: transparent #fff transparent transparent;
+}
+
+h2:after
+{
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #096491 #096491 transparent transparent;
+}
+
+.logo {
+	position: absolute;
+	top: 0px;
+	height: 80px;
+	overflow: visible;
+}
+.logoRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height:auto;
+	overflow: visible;
+	z-index:9999;
+}
+
+.tagline {
+  margin-top: 12px;
+}
+
+.term-foreground,
+.term-background {
+  border-radius: 3px;
+  padding: 1px 4px;
+  white-space: nowrap;
+}
+.term-foreground {
+  color: #555;
+  background-color: #daf1f8;
+}
+.term0 {
+  color: #204a20;
+  background-color: #ff0000;
+}
+.upper {
+	padding: 0px 0 0px 0;
+	margin-bottom: 0px;
+	height:100%;
+	box-shadow: 3px 3px 20px 0px rgba(119, 119, 119, 0.73);
+	-moz-box-shadow: 3px 3px 20px 0px rgba(119, 119, 119, 0.73);
+	-webkit-box-shadow: 3px 3px 20px 0px rgba(119, 119, 119, 0.73);
+}
+#chartContainer{
+	margin-top:30px;
+	padding-left:0;
+	position:absolute;
+}
+.term-background {
+  color: #666;
+  background-color: #fbe7cb;
+}
+.stripes {
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	overflow: hidden;
+	background: #FA9300;
+}
+.stripe {
+	width: 30px;
+	height: 5px;
+	float: left;
+}
+.item1 {background: #fa9300;}
+.item2 {background: #66c9ee; width: 18px;}
+.item3 {background: #c9c9c9;}
+.item4 {background: #82b964; width: 24px;}
+.item5 {background: #d24d33;}
+.item6 {background: #fa9300; width: 28px;}
+.item7 {background: #2e77bb;}
+.item8 {background: #6bd5b1; width: 14px;}
+.item9 {background: #f87aa0; width: 18px;}
+.item10 {background: #c9c9c9; width: 28px;}
+.item11 {background: #72664e;}
+.item12 {background: #ccd600; width: 24px;}
+.item13 {background: #fa9300;}
+.item14 {background: #df620e;}
+.item15 {background: #993838; width: 18px;}
+.item16 {background: #ff9600; width: 18px;}
+.item17 {background: #d24d33;}
+.item18 {background: #8960a7;}
+.item19 {background: #82b964;}
+.item20 {background: #f87aa0; width: 14px;}
+.item21 {background: #d43f3f; width: 28px;}
+.item22 {background: #668000; width: 24px;}
+.item23 {background: #ff9600;}
+.item24 {background: #8960a7; width: 18px;}
+.item25 {background: #c9c9c9; width: 28px;}
+.item26 {background: #993838; width: 18px;}
+.item27 {background: #CCD600;}
+.item28 {background: #668000; width: 18px;}
+.item29 {background: #f4cc13; width: 14px;}
+.item30 {background: #72664e;}
+.item31 {background: #fa9300;}
+.item32 {background: #66c9ee; width: 18px;}
+.item33 {background: #c9c9c9; width: 28px;}
+.item34 {background: #82b964; width: 24px;}
+.item35 {background: #CCD600;}
+.item36 {background: #fa9300;}
+.item37 {background: #2e77bb;}
+.item38 {background: #6bd5b1; width: 14px;}
+.item39 {background: #f87aa0; width: 18px;}
+.item40 {background: #c9c9c9; width: 28px;}
+.item41 {background: #fa9300;}
+.item42 {background: #66c9ee; width: 18px;}
+.item43 {background: #c9c9c9;}
+.item44 {background: #82b964; width: 24px;}
+.item45 {background: #CCD600;}
+.item46 {background: #fa9300; width: 28px;}
+.item47 {background: #2e77bb;}
+.item48 {background: #6bd5b1; width: 14px;}
+.item49 {background: #f87aa0; width: 18px;}
+.item50 {background: #c9c9c9; width: 28px;}
+
+.credits {
+  color: #999;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.divider {
+  z-index: -1;
+  position: relative;
+  margin-top: 0px;
+  height: 154px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#body {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -90px;
+  /* Pad bottom by footer height */
+  padding: 0 0 90px;
+}
+
